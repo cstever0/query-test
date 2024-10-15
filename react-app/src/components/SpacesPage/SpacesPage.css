@@ -1,0 +1,44 @@
+.spaces-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square-space-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.view-more{
+    margin: 1rem;
+    padding: 1rem;
+    width: 30vw;
+    background-color: white;
+    border: none;
+}
+.view-more:hover{
+    background-color: rgba(220, 220, 220, 0.205);
+    border-radius: .23rem;
+    filter: brightness(90%);
+    cursor: pointer;
+}
+.spaces-buttons{
+    display: flex;
+}
+.spaces-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.spaces-buttons > button{
+    color: blue;
+}
+.spaces-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .23rem;
+    width: 40vw;
+    margin-top: 2vh;
+}
+.user-spaces {
+    overflow: hidden;
+}

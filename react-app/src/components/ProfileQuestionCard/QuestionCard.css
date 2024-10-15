@@ -1,0 +1,42 @@
+.profile-question-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    /* width: 35vw; */
+    padding: 2%;
+    margin: 2%;
+}
+
+.profile-question-card {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.profile-question-text {
+    font-size: 20pt;
+    padding-bottom: 4%;
+    word-wrap: break-word;
+}
+
+.profile-question-answers{
+    font-size: 15pt;
+}
+
+.edit-question-tooltip {
+    background-color: rgb(255, 255, 255);
+    border: .1rem solid black;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: .9rem;
+}
+
+.hidden {
+    display: none;
+}

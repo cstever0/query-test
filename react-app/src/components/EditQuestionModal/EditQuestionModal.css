@@ -1,0 +1,31 @@
+.edit-question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    margin-top: 5%;
+}
+
+.textarea-border {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    resize: vertical;
+    display: flex;
+    justify-content: center;
+}
+
+
+.edit-question-display-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.edit-question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
